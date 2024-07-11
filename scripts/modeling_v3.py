@@ -41,6 +41,33 @@ def create_belief_network(m = 15, n_beliefs = 6, complete = True):
     return bn1
 
 
+def compose_networks(bn1, bn2, n_nodes_to_connect = 1, random=False):
+    
+    edges_to_add = []
+
+    n1 = np.random.choice([*bn1.nodes()])
+
+    for c in range(n_nodes_to_connect):
+        pair_exists = True
+        while pair_exists:
+            if random == False:
+                pair = (n1, np.random.choice([*bn2.nodes()]))
+            else:
+                pair = (np.random.choice([*bn1.nodes()]), np.random.choice([*bn2.nodes()]))
+            if pair not in edges_to_add:
+                pair_exists = False
+
+        edges_to_add.append(pair)
+
+    bn_composed = nx.compose(bn1,bn2)
+    propositions = [*bn_composed.nodes()]
+
+    for edge in edges_to_add:
+        bn_composed.add_edge(edge[0], edge[1])
+
+    return bn_composed
+
+
 def flatten(xss):
     return [x for xs in xss for x in xs]
 
@@ -100,10 +127,10 @@ def find_irrelevant_propositions(association_matrix, gamma = .1):
     non_zero_values = flattened[np.where(flattened!=0)]
 
     # determine the threshold for relevant propositions
-    relevance_threshold = np.percentile(non_zero_values, gamma*100, method='higher')
+    relevance_threshold = np.percentile(non_zero_values, gamma*100, method='lower')
 
     # find the spots on the matrix that exceed the relevance threshrold
-    i, j = np.where(normalized_association_matrix <= relevance_threshold)
+    i, j = np.where(normalized_association_matrix < relevance_threshold)
 
     propositions = np.array([*compressed_matrix.columns])
 
@@ -112,49 +139,37 @@ def find_irrelevant_propositions(association_matrix, gamma = .1):
     return irrelevant_propositions
 
 
-def infer_relationship(message_to_convey, association_matrix, gamma):
-    
-    e1 = message_to_convey['e1']
-    e2 = message_to_convey['e2']
+def determine_relationships_likelihoods(association_matrix, gamma):
 
-    irrelevant_propositions = find_irrelevant_propositions(association_matrix = association_matrix,
-                                                        gamma = gamma)
+    propositions = sorted(list(set([c[1] for c in association_matrix.columns])))
+    pairs = [*itertools.permutations(propositions,2)]
 
-    if "".join(sorted([e1[1], e2[1]])) in irrelevant_propositions:
-        return 0
+    relationships = {p1:{p2:None for p2 in propositions if p1!=p2} for p1 in propositions}
+    likelihoods = {p1:{p2:None for p2 in propositions if p1!=p2} for p1 in propositions}
+    joint_probs = {}
 
-    else:
-        likelihood_pos_rel, likelihood_neg_rel = bayesian(e1, e2, association_matrix)
+    for pair in pairs:
+        b1 = pair[0]
+        b2 = pair[1]
         
-        if likelihood_pos_rel > likelihood_neg_rel:
-            return 1
+        evidence = association_matrix[f'-{b1}'].sum() + association_matrix[f'+{b1}'].sum()
+
+        joint_1 = association_matrix[f'+{b1}'][f'+{b2}'] + association_matrix[f'-{b1}'][f'-{b2}']
+        joint_2 = association_matrix[f'-{b1}'][f'+{b2}'] + association_matrix[f'+{b1}'][f'-{b2}']
+        
+        if joint_1 > joint_2:
+            relationships[b1][b2] = 1
         else:
-            return -1
+            relationships[b1][b2] = -1
 
+        #likelihoods[b1][b2] = (joint_1+joint_2)/evidence
 
-def pair_options(b1, association_matrix, gamma):
+    irrelevant_propositions = find_irrelevant_propositions(association_matrix, gamma)
+    for pair in irrelevant_propositions:
+        relationships[pair[0]][pair[1]] = 0
+        relationships[pair[1]][pair[0]] = 0
 
-    likelihoods = {}
-
-    propositions = list(set([c[1] for c in association_matrix.columns]))
-
-    evidence = association_matrix[f'-{b1[1]}'].sum() + association_matrix[f'+{b1[1]}'].sum()
-
-    for p in propositions:
-        if p!=b1:
-            joint_1 = association_matrix[f'+{b1}'][f'+{p}'] + association_matrix[f'-{b1}'][f'-{p}']
-            joint_2 = association_matrix[f'-{b1}'][f'+{p}'] + association_matrix[f'+{b1}'][f'-{p}']
-            likelihoods[p] = (joint_1 + joint_2)/evidence
-
-    # determine the threshold
-    threshold = np.percentile(np.array([*likelihoods.values()]), gamma*100)
-
-    # keep only the ones above the threshold
-    likelihoods = {k:v for k,v in likelihoods.items() if v>=threshold}
-
-    options = [*likelihoods.keys()]
-
-    return options
+    return relationships, likelihoods
 
 
 def energy(message_to_convey, beliefs, relationship):
@@ -189,31 +204,35 @@ def energy_comprehensive(message_to_convey, beliefs, association_matrix, belief_
     return energy_sum
 
 
-def total_energy(edge_list, agents, gamma):
+def total_energy(agents, gamma):
 
-    normalizer = len(edge_list)/2
-    internal_energies_all = []
+    energies = []
 
-    beliefs = [v['beliefs'] for v in agents.values()]
-    association_matrices = [a['association_matrix'] for a in agents.values()]
-
-    for b,a in zip(beliefs,association_matrices):
-        internal_energy = 0
-        for edge in edge_list:
-            message_to_convey = {'e1':f"+{edge[0]}", 'e2':f"+{edge[1]}"}
-            relationship = infer_relationship(message_to_convey = message_to_convey, 
-                                                association_matrix = a,
-                                                gamma = gamma)
-            internal_energy += b[edge[0]] *b[edge[1]] * relationship
+    for a, v in agents.items():
         
-        internal_energies_all.append(internal_energy/normalizer)
+        beliefs = v['beliefs']
+        association_matrix = v['association_matrix']
+        propositions = [*beliefs.keys()]
+        pairs = [*itertools.permutations(propositions,2)]
 
-    return internal_energies_all
+        relationships, likelihoods = determine_relationships_likelihoods(association_matrix=association_matrix, gamma=gamma)
+        internal_energy = 0
+        normalizer = 0
+        
+        for b1, b2 in pairs:
+            internal_energy += beliefs[b1] * beliefs[b2] * relationships[b1][b2]
+            
+            if relationships[b1][b2] != 0:
+                normalizer += 1
+
+        energies.append(- internal_energy / normalizer)
+
+    return energies
 
 
-def update_belief(e1, beliefs):
+def update_belief(e1, beliefs, sigma=1):
     
-    update_term = np.random.normal() # get an update term randomly
+    update_term = np.random.normal(0, sigma) # get an update term randomly
     
     beliefs_new = beliefs.copy() # make a copy of beliefs
     
@@ -306,34 +325,23 @@ def interpretative_agreement(propositions, agents):
     return interpretative_dist
 
 
-def compose_networks(bn1, bn2, n_nodes_to_connect = 1, random=False):
-    
-    edges_to_add = []
+def belief_similarities(agents):
 
-    n1 = np.random.choice([*bn1.nodes()])
+    belief_matrix = np.array([[*a['beliefs'].values()] for a in agents.values()])
 
-    for c in range(n_nodes_to_connect):
-        pair_exists = True
-        while pair_exists:
-            if random == False:
-                pair = (n1, np.random.choice([*bn2.nodes()]))
-            else:
-                pair = (np.random.choice([*bn1.nodes()]), np.random.choice([*bn2.nodes()]))
-            if pair not in edges_to_add:
-                pair_exists = False
+    # compute pairwise belief distances
+    pairwise_belief_dist = pairwise_distances(belief_matrix, metric='cosine')
 
-        edges_to_add.append(pair)
+    # drop duplicate values
+    pairwise_belief_dist = pairwise_belief_dist[np.triu_indices_from(pairwise_belief_dist, k=1)]
 
-    bn_composed = nx.compose(bn1,bn2)
-    propositions = [*bn_composed.nodes()]
+    # compute similarity
+    pairwise_belief_sim = 1 - pairwise_belief_dist
 
-    for edge in edges_to_add:
-        bn_composed.add_edge(edge[0], edge[1])
-
-    return bn_composed
+    return pairwise_belief_sim
 
 
-def simulate_multiple_agents(sim_no, random_seed, n_beliefs, m, gamma=.1, n_nodes_to_connect=1, n_agents = 2, last_step = 10000, is_composed=False):
+def simulate_multiple_agents(sim_no, random_seed, n_beliefs, m, gamma=.1, n_nodes_to_connect=1, n_agents = 2, last_step = 10000, sigma=1, is_composed=False):
 
     np.random.seed(random_seed)
     random.seed(random_seed)
@@ -341,8 +349,6 @@ def simulate_multiple_agents(sim_no, random_seed, n_beliefs, m, gamma=.1, n_node
     bn1 = create_belief_network(m = m,
                                 n_beliefs = n_beliefs,
                                 complete = True)
-
-    pair_options(b1, association_matrix)
 
     if is_composed:
         bn2 = bn1.copy()
@@ -366,20 +372,31 @@ def simulate_multiple_agents(sim_no, random_seed, n_beliefs, m, gamma=.1, n_node
         
         i,j = np.random.choice(agent_list, 2, replace=False) # choose an agent to be the sender and the other one will be the receiver
         
+        # choose the first belief to send
         b1 = np.random.choice(node_list)
+        # the second belief depends on the relationship between belief 1 and 2, if unrelated, don't take it
+        relationships, likelihoods = determine_relationships_likelihoods(agents[i]['association_matrix'], gamma)
         
+        choices = [k for k,v in relationships[b1].items() if v != 0]
 
+        if len(choices) == 0: # if it seems like the node is irrelevant to the others, choose one randomly
+            temp = node_list.copy()
+            temp.remove(b1)
+            b2 = np.random.choice(temp)
         
-        #b2 = np.random.choice([*bn_composed.neighbors(b1)])
+        else: # else, choose one among relevants
+            b2 = np.random.choice(choices)
+
         beliefs_to_convey = [b1,b2]
         
         message_to_convey = deduce_message_to_convey(beliefs_to_convey, agents[i]['beliefs']) # deduce the message to convey
         update_association_matrix(message_to_convey, agents[j]['association_matrix']) # update receiver's association matrix
         
-        relationship = infer_relationship(message_to_convey, association_matrix=agents[j]['association_matrix'], gamma = gamma)
+        relationships, likelihoods = determine_relationships_likelihoods(agents[j]['association_matrix'], gamma)
         
-        beliefs_new = update_belief(message_to_convey['e1'], agents[j]['beliefs'])
+        beliefs_new = update_belief(message_to_convey['e1'], agents[j]['beliefs'], sigma)
         
+        relationship = relationships[b1][b2]
 
         if relationship != 0:
 
@@ -396,7 +413,7 @@ def simulate_multiple_agents(sim_no, random_seed, n_beliefs, m, gamma=.1, n_node
 
 
         # keep track of the evolution of the agents
-        if t % 400 == 0:
+        if t % 50 == 0:
             track[t] = {}
             
             beliefs = np.array([[*a['beliefs'].values()] for a in agents.values()])
@@ -413,24 +430,23 @@ def simulate_multiple_agents(sim_no, random_seed, n_beliefs, m, gamma=.1, n_node
                 track[t]['silhouette_score'] = silhouette
                 
             # Preference congruence and similarity
-            pref_corr = evaluatory_agreement(beliefs)
-            track[t]['preference_congruence'] = np.abs(pref_corr).mean()
-            track[t]['preference_similarity'] = pref_corr.mean()
+            pairwise_belief_sim = belief_similarities(agents)
+            track[t]['pairwise_belief_sim'] = pairwise_belief_sim
             
             # Computing evaluatory agreement
             interpretative_dist = interpretative_agreement(propositions, agents)
             track[t]['interpretative_dist'] = np.mean(interpretative_dist)
 
             # Internal energies
-            internal_energy = total_energy(edge_list, agents, gamma)
-            track[t]['internal_energy'] = np.mean(internal_energy)
+            internal_energies = total_energy(agents, gamma)
+            track[t]['internal_energies'] = internal_energies
 
             # Stop if everybody has either -1 or +1 only
             #if len(np.unique(unique_belief_networks))==2:
             #    track[t]['belief_networks'] = beliefs
             #    break
-
-            track[t]['belief_networks'] = beliefs
-            track[t]['association_matrix'] = {k:v['association_matrix'].copy() for k,v in agents.items()}
+            if t == last_step:
+                track[t]['belief_networks'] = beliefs
+                track[t]['association_matrix'] = {k:v['association_matrix'].copy() for k,v in agents.items()}
     
     return {'sim_no':sim_no, 'n_nodes_to_connect':n_nodes_to_connect, 'track':track}
