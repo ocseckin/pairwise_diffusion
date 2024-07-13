@@ -146,7 +146,6 @@ def determine_relationships_likelihoods(association_matrix, gamma):
 
     relationships = {p1:{p2:None for p2 in propositions if p1!=p2} for p1 in propositions}
     likelihoods = {p1:{p2:None for p2 in propositions if p1!=p2} for p1 in propositions}
-    joint_probs = {}
 
     for pair in pairs:
         b1 = pair[0]
@@ -162,12 +161,18 @@ def determine_relationships_likelihoods(association_matrix, gamma):
         else:
             relationships[b1][b2] = -1
 
-        #likelihoods[b1][b2] = (joint_1+joint_2)/evidence
+        # likelihoods dict is used for comparing agents' interpretative differences
+        likelihoods[b1][b2] = (joint_1-joint_2)/evidence
 
+    # mark the relationship between b1 and b2 as 0 if they are irrelevant
     irrelevant_propositions = find_irrelevant_propositions(association_matrix, gamma)
     for pair in irrelevant_propositions:
         relationships[pair[0]][pair[1]] = 0
         relationships[pair[1]][pair[0]] = 0
+        
+        # likelihoods dict is used for comparing agents' interpretative differences
+        likelihoods[pair[0]][pair[1]] = 0
+        likelihoods[pair[1]][pair[0]] = 0
 
     return relationships, likelihoods
 
@@ -180,28 +185,36 @@ def energy(message_to_convey, beliefs, relationship):
     return - beliefs[e1[1]]*beliefs[e2[1]]*relationship
 
 
-def energy_comprehensive(message_to_convey, beliefs, association_matrix, belief_network, gamma):
+def energy_comprehensive(message_to_convey, beliefs, relationships):
     
     energy_sum = 0
 
-    e2 = message_to_convey['e2']
-    neighbors = [*belief_network.neighbors(e2[1])]
+    e1 = message_to_convey['e1']
+    neighbors = [k for k,v in relationships[e1[1]].items() if v != 0]
 
-    for e1 in neighbors:
+    for e2 in neighbors:
 
-        relationship = infer_relationship(message_to_convey = message_to_convey, 
-                                          association_matrix = association_matrix,
-                                          gamma = gamma)
+        relationship = relationships[e1[1]][e2]
 
         e = energy(message_to_convey = message_to_convey, beliefs = beliefs, relationship = relationship)
 
-        denominator = association_matrix[f"-{e2[1]}"].sum() + association_matrix[f"+{e2[1]}"].sum()
-        nominator = association_matrix[f"-{e2[1]}"][f"-{e1}"].sum() + association_matrix[f"+{e2[1]}"][f"-{e1}"].sum() + association_matrix[f"-{e2[1]}"][f"+{e1}"].sum() + association_matrix[f"+{e2[1]}"][f"+{e1}"].sum()
-        weight = nominator / denominator
-
-        energy_sum += e * weight
+        energy_sum += e
 
     return energy_sum
+
+
+def energy_one_agent(beliefs, relationships, gamma, pairs):
+
+    internal_energy = 0
+    normalizer = 0
+
+    for b1, b2 in pairs:
+        internal_energy += beliefs[b1] * beliefs[b2] * relationships[b1][b2]
+        
+        if relationships[b1][b2] != 0:
+            normalizer += 1
+
+    return - internal_energy / normalizer
 
 
 def total_energy(agents, gamma):
@@ -230,7 +243,7 @@ def total_energy(agents, gamma):
     return energies
 
 
-def update_belief(e1, beliefs, sigma=1):
+def update_belief(e1, beliefs, sigma=.3):
     
     update_term = np.random.normal(0, sigma) # get an update term randomly
     
@@ -330,32 +343,25 @@ def belief_similarities(agents):
     belief_matrix = np.array([[*a['beliefs'].values()] for a in agents.values()])
 
     # compute pairwise belief distances
-    pairwise_belief_dist = pairwise_distances(belief_matrix, metric='cosine')
+    pairwise_belief_dist = pairwise_distances(belief_matrix, metric='euclidean')
 
     # drop duplicate values
     pairwise_belief_dist = pairwise_belief_dist[np.triu_indices_from(pairwise_belief_dist, k=1)]
 
     # compute similarity
-    pairwise_belief_sim = 1 - pairwise_belief_dist
+    #pairwise_belief_sim = 1 - pairwise_belief_dist
 
-    return pairwise_belief_sim
+    return pairwise_belief_dist
 
 
-def simulate_multiple_agents(sim_no, random_seed, n_beliefs, m, gamma=.1, n_nodes_to_connect=1, n_agents = 2, last_step = 10000, sigma=1, is_composed=False):
+def simulate_multiple_agents(sim_no, random_seed, n_beliefs, m, gamma=.1, n_nodes_to_connect=1, n_agents = 2, last_step = 10000, sigma=.3):
 
     np.random.seed(random_seed)
     random.seed(random_seed)
 
-    bn1 = create_belief_network(m = m,
+    bn_composed = create_belief_network(m = m,
                                 n_beliefs = n_beliefs,
                                 complete = True)
-
-    if is_composed:
-        bn2 = bn1.copy()
-        bn2 = nx.relabel_nodes(bn2,{l1:l2 for l1,l2 in zip([*bn1.nodes],string.ascii_uppercase[len(bn1):len(bn1)+len(bn2)])})
-        bn_composed = compose_networks(bn1=bn1, bn2=bn2, n_nodes_to_connect = n_nodes_to_connect, random=False)
-    else:
-        bn_composed = bn1
 
 
     propositions = [*bn_composed.nodes()]
@@ -363,6 +369,7 @@ def simulate_multiple_agents(sim_no, random_seed, n_beliefs, m, gamma=.1, n_node
     agent_list = [*agents.keys()]
     node_list = [*bn_composed.nodes()]
     edge_list = [*bn_composed.edges()]
+    pairs = [*itertools.combinations(propositions,2)]
 
     simulation_steps = [*range(last_step+1)]
 
@@ -374,12 +381,17 @@ def simulate_multiple_agents(sim_no, random_seed, n_beliefs, m, gamma=.1, n_node
         
         # choose the first belief to send
         b1 = np.random.choice(node_list)
-        # the second belief depends on the relationship between belief 1 and 2, if unrelated, don't take it
+        
+        # the second belief depends on the relationship between belief 1 and 2
         relationships, likelihoods = determine_relationships_likelihoods(agents[i]['association_matrix'], gamma)
+        
+        #print('for i, relationships:')
+        #print(relationships)
+        #print('\n')
         
         choices = [k for k,v in relationships[b1].items() if v != 0]
 
-        if len(choices) == 0: # if it seems like the node is irrelevant to the others, choose one randomly
+        if len(choices) == 0: # if the node is irrelevant to the others, choose one randomly
             temp = node_list.copy()
             temp.remove(b1)
             b2 = np.random.choice(temp)
@@ -390,23 +402,31 @@ def simulate_multiple_agents(sim_no, random_seed, n_beliefs, m, gamma=.1, n_node
         beliefs_to_convey = [b1,b2]
         
         message_to_convey = deduce_message_to_convey(beliefs_to_convey, agents[i]['beliefs']) # deduce the message to convey
-        update_association_matrix(message_to_convey, agents[j]['association_matrix']) # update receiver's association matrix
-        
-        relationships, likelihoods = determine_relationships_likelihoods(agents[j]['association_matrix'], gamma)
+        update_association_matrix(message_to_convey, agents[j]['association_matrix']) # update receiver's association matrixs
         
         beliefs_new = update_belief(message_to_convey['e1'], agents[j]['beliefs'], sigma)
+
+        relationships, likelihoods = determine_relationships_likelihoods(agents[j]['association_matrix'], gamma)
         
         relationship = relationships[b1][b2]
-
         if relationship != 0:
-
             energy_t = energy(message_to_convey = message_to_convey,
                             beliefs = agents[j]['beliefs'],
                             relationship = relationship)
-            
             energy_t_plus_1 = energy(message_to_convey = message_to_convey,
                             beliefs = beliefs_new,
                             relationship = relationship)
+
+        #energy_t = energy_comprehensive(message_to_convey = message_to_convey,
+        #                                beliefs = agents[j]['beliefs'],
+        #                                relationships = relationships)
+
+        #energy_t_plus_1 = energy_comprehensive(message_to_convey = message_to_convey,
+        #                                        beliefs = beliefs_new,
+        #                                        relationships = relationships)
+
+        #energy_t = energy_one_agent(beliefs = agents[j]['beliefs'], relationships = relationships, gamma = gamma, pairs = pairs)
+        #energy_t_plus_1 = energy_one_agent(beliefs = beliefs_new, relationships = relationships, gamma = gamma, pairs = pairs)
 
             if energy_t_plus_1 < energy_t:
                 agents[j]['beliefs'] = beliefs_new
