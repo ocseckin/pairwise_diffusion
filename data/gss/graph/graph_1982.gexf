@@ -1,0 +1,2833 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-08-01">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="sign" type="float" />
+    </attributes>
+    <nodes>
+      <node id="political party affiliation" label="political party affiliation" />
+      <node id="think of self as liberal or conservative" label="think of self as liberal or conservative" />
+      <node id="foreign aid" label="foreign aid" />
+      <node id="confid in banks &amp; financial institutions" label="confid in banks &amp; financial institutions" />
+      <node id="confidence in major companies" label="confidence in major companies" />
+      <node id="confidence in organized religion" label="confidence in organized religion" />
+      <node id="confid. in exec branch of fed govt" label="confid. in exec branch of fed govt" />
+      <node id="confidence in organized labor" label="confidence in organized labor" />
+      <node id="confidence in press" label="confidence in press" />
+      <node id="confidence in congress" label="confidence in congress" />
+      <node id="should aged live with their children" label="should aged live with their children" />
+      <node id="birth control information" label="birth control information" />
+      <node id="sex education in public schools" label="sex education in public schools" />
+      <node id="should govt do more or less?" label="should govt do more or less?" />
+      <node id="improving &amp; protecting environment" label="improving &amp; protecting environment" />
+      <node id="should marijuana be made legal" label="should marijuana be made legal" />
+      <node id="confidence in television" label="confidence in television" />
+      <node id="confid. in united states supreme court" label="confid. in united states supreme court" />
+      <node id="confidence in military" label="confidence in military" />
+      <node id="should govt improve standard of living?" label="should govt improve standard of living?" />
+      <node id="space exploration program" label="space exploration program" />
+      <node id="solving problems of big cities" label="solving problems of big cities" />
+      <node id="military, armaments, and defense" label="military, armaments, and defense" />
+      <node id="favor or oppose gun permits" label="favor or oppose gun permits" />
+      <node id="wiretapping" label="wiretapping" />
+      <node id="favor law against racial intermarriage" label="favor law against racial intermarriage" />
+      <node id="confidence in scientific community" label="confidence in scientific community" />
+      <node id="neat and clean" label="neat and clean" />
+      <node id="interested how and why things happen" label="interested how and why things happen" />
+      <node id="womans health seriously endangered" label="womans health seriously endangered" />
+      <node id="take active part in world affairs" label="take active part in world affairs" />
+      <node id="improving &amp; protecting nations health" label="improving &amp; protecting nations health" />
+      <node id="improving nations education system" label="improving nations education system" />
+      <node id="can people be trusted" label="can people be trusted" />
+      <node id="stranger had hit mans child" label="stranger had hit mans child" />
+      <node id="ever approve of police striking citizen" label="ever approve of police striking citizen" />
+      <node id="remain in u.n. or pull out" label="remain in u.n. or pull out" />
+      <node id="improving the conditions of blacks" label="improving the conditions of blacks" />
+      <node id="stranger in protest march" label="stranger in protest march" />
+      <node id="should govt help pay for medical care?" label="should govt help pay for medical care?" />
+      <node id="halting rising crime rate" label="halting rising crime rate" />
+      <node id="dealing with drug addiction" label="dealing with drug addiction" />
+      <node id="favor or oppose death penalty for murder" label="favor or oppose death penalty for murder" />
+      <node id="pregnant as result of rape" label="pregnant as result of rape" />
+      <node id="materials provide outlet" label="materials provide outlet" />
+      <node id="feelings about pornography laws" label="feelings about pornography laws" />
+      <node id="stranger was beating up a woman" label="stranger was beating up a woman" />
+      <node id="welfare" label="welfare" />
+      <node id="women take care of home not country" label="women take care of home not country" />
+      <node id="materials lead to breakdown in morals" label="materials lead to breakdown in morals" />
+      <node id="materials lead to rape" label="materials lead to rape" />
+      <node id="blacks shouldnt push" label="blacks shouldnt push" />
+      <node id="vote on open housing law" label="vote on open housing law" />
+      <node id="children to school with opposite race" label="children to school with opposite race" />
+      <node id="children to school mostly opposite race" label="children to school mostly opposite race" />
+      <node id="would vote for black president" label="would vote for black president" />
+      <node id="should women work" label="should women work" />
+      <node id="citizen said vulgar or obscene things" label="citizen said vulgar or obscene things" />
+      <node id="should govt aid blacks?" label="should govt aid blacks?" />
+      <node id="sex before marriage" label="sex before marriage" />
+      <node id="good sense and sound judgment" label="good sense and sound judgment" />
+      <node id="stranger had broken into mans house" label="stranger had broken into mans house" />
+      <node id="self-control" label="self-control" />
+      <node id="birth control information to teens" label="birth control information to teens" />
+      <node id="courts dealing with criminals" label="courts dealing with criminals" />
+      <node id="tries hard to succeed" label="tries hard to succeed" />
+      <node id="citizen attempting to escape custody" label="citizen attempting to escape custody" />
+      <node id="people helpful or looking out for selves" label="people helpful or looking out for selves" />
+      <node id="citizen attacking policeman with fists" label="citizen attacking policeman with fists" />
+      <node id="attitude toward racial busing" label="attitude toward racial busing" />
+      <node id="honest" label="honest" />
+      <node id="acts like boy-acts like girl" label="acts like boy-acts like girl" />
+      <node id="responsible" label="responsible" />
+      <node id="married--wants no more children" label="married--wants no more children" />
+      <node id="bible prayer in public schools" label="bible prayer in public schools" />
+      <node id="confidence in medicine" label="confidence in medicine" />
+      <node id="divorce laws" label="divorce laws" />
+      <node id="good manners" label="good manners" />
+      <node id="obeys parents well" label="obeys parents well" />
+      <node id="strong chance of serious defect" label="strong chance of serious defect" />
+      <node id="children to school half opposite race" label="children to school half opposite race" />
+      <node id="vote for woman president" label="vote for woman president" />
+      <node id="low income--cant afford more children" label="low income--cant afford more children" />
+      <node id="women not suited for politics" label="women not suited for politics" />
+      <node id="materials provide info about sex" label="materials provide info about sex" />
+      <node id="confidence in education" label="confidence in education" />
+      <node id="citizen questioned as murder suspect" label="citizen questioned as murder suspect" />
+      <node id="drunk bumped into man &amp; wife" label="drunk bumped into man &amp; wife" />
+      <node id="not married" label="not married" />
+      <node id="ever approve of man punching adult male" label="ever approve of man punching adult male" />
+      <node id="gets along well with other children" label="gets along well with other children" />
+      <node id="good student" label="good student" />
+      <node id="considerate of others" label="considerate of others" />
+    </nodes>
+    <edges>
+      <edge source="political party affiliation" target="think of self as liberal or conservative" id="0" weight="0.1496646863409662">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="political party affiliation" target="foreign aid" id="1" weight="0.10801106089513496">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="political party affiliation" target="confid in banks &amp; financial institutions" id="2" weight="0.06089953981443164">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="political party affiliation" target="confidence in major companies" id="3" weight="0.05658932856571795">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="political party affiliation" target="confidence in organized religion" id="4" weight="0.07088248753977053">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="political party affiliation" target="confid. in exec branch of fed govt" id="5" weight="0.1322608960134058">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="political party affiliation" target="confidence in organized labor" id="6" weight="0.09016706518426566">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="political party affiliation" target="confidence in press" id="7" weight="0.09323829008901256">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="political party affiliation" target="confidence in congress" id="8" weight="0.10034394178882855">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="political party affiliation" target="should aged live with their children" id="9" weight="0.06457893405113176">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="political party affiliation" target="birth control information" id="10" weight="0.06480536002249998">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="political party affiliation" target="sex education in public schools" id="11" weight="0.07059857849952131">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="political party affiliation" target="should govt do more or less?" id="12" weight="0.06525066195122549">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="think of self as liberal or conservative" target="improving &amp; protecting environment" id="13" weight="0.06831431107535764">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="think of self as liberal or conservative" target="should marijuana be made legal" id="14" weight="0.05828671254373679">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="think of self as liberal or conservative" target="confidence in major companies" id="15" weight="0.058910587057063146">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="think of self as liberal or conservative" target="confidence in organized labor" id="16" weight="0.053695757713984625">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="think of self as liberal or conservative" target="confidence in television" id="17" weight="0.060571889370398466">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="think of self as liberal or conservative" target="confid. in united states supreme court" id="18" weight="0.054095921570052906">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="think of self as liberal or conservative" target="confidence in military" id="19" weight="0.059920371177885456">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="think of self as liberal or conservative" target="should govt improve standard of living?" id="20" weight="0.09267316517197055">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="solving problems of big cities" id="21" weight="0.06187842591822148">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="halting rising crime rate" id="22" weight="0.05890499474222431">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="improving nations education system" id="23" weight="0.09356526322820996">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="military, armaments, and defense" id="24" weight="0.0734358332802606">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="welfare" id="25" weight="0.08292123680609353">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="favor or oppose gun permits" id="26" weight="0.053647842283446656">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="favor law against racial intermarriage" id="27" weight="0.060385143814458545">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="can people be trusted" id="28" weight="0.055504384728309576">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="confidence in organized labor" id="29" weight="0.060021313412151195">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="confidence in press" id="30" weight="0.07467489248379189">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="good sense and sound judgment" id="31" weight="0.057451607567494054">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="women take care of home not country" id="32" weight="0.06839052404781451">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="materials lead to rape" id="33" weight="0.07283577144882138">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="stranger had broken into mans house" id="34" weight="0.07260485373810723">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="should govt improve standard of living?" id="35" weight="0.05572823375781085">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="should govt do more or less?" id="36" weight="0.0720179335791075">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="foreign aid" target="take active part in world affairs" id="37" weight="0.08161307094282336">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="solving problems of big cities" id="38" weight="0.05710534951212526">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="improving the conditions of blacks" id="39" weight="0.05624268153686967">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="courts dealing with criminals" id="40" weight="0.07802746809219895">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="confidence in major companies" id="41" weight="0.14248056868523098">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="confidence in organized religion" id="42" weight="0.07671697917997496">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="confid. in exec branch of fed govt" id="43" weight="0.060446675481611686">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="confidence in medicine" id="44" weight="0.10976044380247037">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="confid. in united states supreme court" id="45" weight="0.07745808895704258">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="confidence in scientific community" id="46" weight="0.08387651661352226">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="confidence in congress" id="47" weight="0.08568095464492693">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="self-control" id="48" weight="0.05499296820605423">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="gets along well with other children" id="49" weight="0.06945388543279092">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="good student" id="50" weight="0.05314809188245366">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="strong chance of serious defect" id="51" weight="0.06091811370929349">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="stranger had hit mans child" id="52" weight="0.11069037997876513">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="citizen attempting to escape custody" id="53" weight="0.052553319949777806">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="should govt aid blacks?" id="54" weight="0.06561298739710245">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid in banks &amp; financial institutions" target="take active part in world affairs" id="55" weight="0.05804042344599592">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in major companies" target="improving &amp; protecting environment" id="56" weight="0.06820209757594932">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in major companies" target="would vote for black president" id="57" weight="0.05893600313944497">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in major companies" target="confid. in exec branch of fed govt" id="58" weight="0.1063106441173534">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in major companies" target="confidence in organized labor" id="59" weight="0.058780374203980655">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in major companies" target="confidence in scientific community" id="60" weight="0.12748353323718428">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in major companies" target="confidence in military" id="61" weight="0.12202297363358787">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in major companies" target="should women work" id="62" weight="0.05789686950314595">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in major companies" target="should govt improve standard of living?" id="63" weight="0.0727825459921544">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized religion" target="bible prayer in public schools" id="64" weight="0.09145971194892472">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized religion" target="confidence in education" id="65" weight="0.19862004918071732">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized religion" target="confidence in organized labor" id="66" weight="0.056112747301035194">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized religion" target="confidence in television" id="67" weight="0.06621068424654764">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized religion" target="confidence in scientific community" id="68" weight="0.10715651390351978">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized religion" target="responsible" id="69" weight="0.05248673304125146">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized religion" target="strong chance of serious defect" id="70" weight="0.08813326250485472">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized religion" target="pregnant as result of rape" id="71" weight="0.08613262138528512">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized religion" target="divorce laws" id="72" weight="0.05359762563861626">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized religion" target="materials lead to breakdown in morals" id="73" weight="0.05999885369425527">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in exec branch of fed govt" target="halting rising crime rate" id="74" weight="0.056985114141798646">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in exec branch of fed govt" target="wiretapping" id="75" weight="0.09461465085999694">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in exec branch of fed govt" target="blacks shouldnt push" id="76" weight="0.05837047946739498">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in exec branch of fed govt" target="can people be trusted" id="77" weight="0.05692500594429413">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in exec branch of fed govt" target="confidence in organized labor" id="78" weight="0.13316808287345394">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in exec branch of fed govt" target="confid. in united states supreme court" id="79" weight="0.16393770060187218">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in exec branch of fed govt" target="confidence in congress" id="80" weight="0.15307194785623784">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in exec branch of fed govt" target="confidence in military" id="81" weight="0.13068854442438385">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in exec branch of fed govt" target="womans health seriously endangered" id="82" weight="0.053680318884778366">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in exec branch of fed govt" target="stranger had hit mans child" id="83" weight="0.07415929887831743">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in exec branch of fed govt" target="citizen attacking policeman with fists" id="84" weight="0.07374335914650425">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in exec branch of fed govt" target="take active part in world affairs" id="85" weight="0.0834676337170692">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized labor" target="improving &amp; protecting nations health" id="86" weight="0.06643879117490092">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized labor" target="confidence in congress" id="87" weight="0.12441592360369792">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized labor" target="married--wants no more children" id="88" weight="0.08608542568639434">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized labor" target="low income--cant afford more children" id="89" weight="0.06434383924657855">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized labor" target="feelings about pornography laws" id="90" weight="0.0552527985469406">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized labor" target="should govt do more or less?" id="91" weight="0.0549128247965215">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in organized labor" target="remain in u.n. or pull out" id="92" weight="0.05995890694745795">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in press" target="confidence in education" id="93" weight="0.06929555677605113">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in press" target="confidence in television" id="94" weight="0.16799155026668877">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in press" target="confid. in united states supreme court" id="95" weight="0.11362086572383231">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in press" target="confidence in scientific community" id="96" weight="0.06310515756552489">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in press" target="confidence in congress" id="97" weight="0.07610227387523405">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in press" target="ever approve of police striking citizen" id="98" weight="0.0873559413135992">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in congress" target="confidence in education" id="99" weight="0.09778733030327073">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in congress" target="confid. in united states supreme court" id="100" weight="0.18103229219672218">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in congress" target="confidence in scientific community" id="101" weight="0.0634000210113059">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in congress" target="should govt do more or less?" id="102" weight="0.053804068962011106">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should aged live with their children" target="improving &amp; protecting environment" id="103" weight="0.08054749528210915">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should aged live with their children" target="can people be trusted" id="104" weight="0.05346769946231219">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should aged live with their children" target="good sense and sound judgment" id="105" weight="0.07591941749559532">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should aged live with their children" target="obeys parents well" id="106" weight="0.05874620251603454">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should aged live with their children" target="responsible" id="107" weight="0.06541857891390074">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should aged live with their children" target="divorce laws" id="108" weight="0.05845762239327556">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should aged live with their children" target="materials lead to rape" id="109" weight="0.05792536010312824">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should aged live with their children" target="citizen attacking policeman with fists" id="110" weight="0.054704985615814564">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="birth control information" target="halting rising crime rate" id="111" weight="0.05775556385530999">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="birth control information" target="welfare" id="112" weight="0.059509348293617766">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="birth control information" target="good sense and sound judgment" id="113" weight="0.053512096465671184">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="birth control information" target="obeys parents well" id="114" weight="0.06797541166527991">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="birth control information" target="responsible" id="115" weight="0.05541307258306162">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="birth control information" target="should women work" id="116" weight="0.05381677184528027">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="birth control information" target="birth control information to teens" id="117" weight="0.4000896869992775">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="birth control information" target="sex education in public schools" id="118" weight="0.09768496511347664">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="birth control information" target="feelings about pornography laws" id="119" weight="0.06049325015630599">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="birth control information" target="take active part in world affairs" id="120" weight="0.06909835583611845">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex education in public schools" target="confidence in education" id="121" weight="0.06763442298290517">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex education in public schools" target="confidence in medicine" id="122" weight="0.06599201063740424">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex education in public schools" target="women take care of home not country" id="123" weight="0.10820828163400993">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex education in public schools" target="vote for woman president" id="124" weight="0.0561828274196431">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex education in public schools" target="birth control information to teens" id="125" weight="0.16193774767038768">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex education in public schools" target="sex before marriage" id="126" weight="0.06435710853674134">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex education in public schools" target="materials lead to breakdown in morals" id="127" weight="0.054103249447689586">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex education in public schools" target="citizen questioned as murder suspect" id="128" weight="0.07447628331030699">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex education in public schools" target="remain in u.n. or pull out" id="129" weight="0.07840662377670095">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt do more or less?" target="space exploration program" id="130" weight="0.07433213198128968">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt do more or less?" target="improving &amp; protecting environment" id="131" weight="0.05794462377311536">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt do more or less?" target="improving nations education system" id="132" weight="0.080887381305929">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt do more or less?" target="favor or oppose gun permits" id="133" weight="0.05602687836763038">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt do more or less?" target="courts dealing with criminals" id="134" weight="0.057140324524652474">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt do more or less?" target="can people be trusted" id="135" weight="0.055648251056596765">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt do more or less?" target="confidence in military" id="136" weight="0.07809119342425812">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt do more or less?" target="gets along well with other children" id="137" weight="0.05354836355178924">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt do more or less?" target="married--wants no more children" id="138" weight="0.06541965864649807">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt do more or less?" target="ever approve of man punching adult male" id="139" weight="0.06292117046032032">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt do more or less?" target="should govt improve standard of living?" id="140" weight="0.21948602757339505">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt do more or less?" target="should govt help pay for medical care?" id="141" weight="0.10921228955677557">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving &amp; protecting environment" target="improving &amp; protecting nations health" id="142" weight="0.08352757867239645">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving &amp; protecting environment" target="solving problems of big cities" id="143" weight="0.11697599832855542">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving &amp; protecting environment" target="improving nations education system" id="144" weight="0.1090389143131943">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving &amp; protecting environment" target="can people be trusted" id="145" weight="0.07276269964458032">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving &amp; protecting environment" target="stranger had hit mans child" id="146" weight="0.07117524586405408">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving &amp; protecting environment" target="ever approve of police striking citizen" id="147" weight="0.06073786556033754">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving &amp; protecting environment" target="remain in u.n. or pull out" id="148" weight="0.07210202356503846">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should marijuana be made legal" target="dealing with drug addiction" id="149" weight="0.054357205811535914">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should marijuana be made legal" target="military, armaments, and defense" id="150" weight="0.088928913708396">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should marijuana be made legal" target="courts dealing with criminals" id="151" weight="0.15776345344096543">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should marijuana be made legal" target="bible prayer in public schools" id="152" weight="0.0693766484817137">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should marijuana be made legal" target="favor law against racial intermarriage" id="153" weight="0.06591329352119722">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should marijuana be made legal" target="confidence in medicine" id="154" weight="0.05521221052474223">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should marijuana be made legal" target="confidence in military" id="155" weight="0.061106806827705897">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should marijuana be made legal" target="divorce laws" id="156" weight="0.058179443861173366">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should marijuana be made legal" target="sex before marriage" id="157" weight="0.10726421714871204">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should marijuana be made legal" target="materials lead to breakdown in morals" id="158" weight="0.07710655294608096">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should marijuana be made legal" target="should govt help pay for medical care?" id="159" weight="0.06833610201821481">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in television" target="improving &amp; protecting nations health" id="160" weight="0.05275007105634606">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in television" target="children to school half opposite race" id="161" weight="0.06773087345896317">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in television" target="would vote for black president" id="162" weight="0.05813888178750399">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in television" target="confidence in education" id="163" weight="0.07079496806720427">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in television" target="confidence in medicine" id="164" weight="0.12601305833725115">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in television" target="confid. in united states supreme court" id="165" weight="0.07083064916044868">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in television" target="confidence in military" id="166" weight="0.05873137032023695">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in television" target="stranger was beating up a woman" id="167" weight="0.05334144729240816">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in united states supreme court" target="halting rising crime rate" id="168" weight="0.05518561676465397">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in united states supreme court" target="wiretapping" id="169" weight="0.05294234902477651">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in united states supreme court" target="bible prayer in public schools" id="170" weight="0.07544888105631642">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in united states supreme court" target="would vote for black president" id="171" weight="0.05394101182751918">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in united states supreme court" target="confidence in education" id="172" weight="0.0700648065882794">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in united states supreme court" target="confidence in scientific community" id="173" weight="0.12077253490069734">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in united states supreme court" target="confidence in military" id="174" weight="0.0585073493371323">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in united states supreme court" target="materials lead to rape" id="175" weight="0.09164306651948582">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confid. in united states supreme court" target="feelings about pornography laws" id="176" weight="0.05745004360594719">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in military" target="military, armaments, and defense" id="177" weight="0.179084481116167">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in military" target="favor law against racial intermarriage" id="178" weight="0.08265036002142692">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in military" target="confidence in medicine" id="179" weight="0.07841879709500156">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in military" target="confidence in scientific community" id="180" weight="0.058654999224802495">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in military" target="considerate of others" id="181" weight="0.07922755679755483">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in military" target="women take care of home not country" id="182" weight="0.05598459631939236">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in military" target="materials provide outlet" id="183" weight="0.06377791294183838">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in military" target="citizen questioned as murder suspect" id="184" weight="0.05838049797263227">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt improve standard of living?" target="improving the conditions of blacks" id="185" weight="0.07420308344478665">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt improve standard of living?" target="welfare" id="186" weight="0.10440909884234417">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt improve standard of living?" target="favor law against racial intermarriage" id="187" weight="0.05332310566586973">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt improve standard of living?" target="materials lead to rape" id="188" weight="0.07088114183497785">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt improve standard of living?" target="should govt help pay for medical care?" id="189" weight="0.21042645801573623">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt improve standard of living?" target="remain in u.n. or pull out" id="190" weight="0.07496612869188551">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="space exploration program" target="solving problems of big cities" id="191" weight="0.0599630985684868">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="space exploration program" target="military, armaments, and defense" id="192" weight="0.09799228942218746">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="space exploration program" target="favor or oppose gun permits" id="193" weight="0.06707438043392103">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="space exploration program" target="wiretapping" id="194" weight="0.08553461714063947">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="space exploration program" target="favor law against racial intermarriage" id="195" weight="0.08252131410447705">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="space exploration program" target="confidence in scientific community" id="196" weight="0.06972684929795121">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="space exploration program" target="neat and clean" id="197" weight="0.06064189137200654">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="space exploration program" target="interested how and why things happen" id="198" weight="0.05863023545642284">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="space exploration program" target="womans health seriously endangered" id="199" weight="0.06371068796555011">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="space exploration program" target="take active part in world affairs" id="200" weight="0.08301836144194308">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="solving problems of big cities" target="improving &amp; protecting nations health" id="201" weight="0.08585506969946641">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="solving problems of big cities" target="halting rising crime rate" id="202" weight="0.14605741350645365">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="solving problems of big cities" target="dealing with drug addiction" id="203" weight="0.10309809795179335">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="solving problems of big cities" target="improving nations education system" id="204" weight="0.05527363338790307">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="solving problems of big cities" target="improving the conditions of blacks" id="205" weight="0.1191605354575542">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="solving problems of big cities" target="favor or oppose gun permits" id="206" weight="0.06898396296524797">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="solving problems of big cities" target="favor law against racial intermarriage" id="207" weight="0.0686620499154587">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="solving problems of big cities" target="stranger had hit mans child" id="208" weight="0.05824051751594581">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="military, armaments, and defense" target="favor or oppose gun permits" id="209" weight="0.061311590998407585">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="military, armaments, and defense" target="wiretapping" id="210" weight="0.0687646535754229">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="military, armaments, and defense" target="confidence in scientific community" id="211" weight="0.09343736224130916">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="military, armaments, and defense" target="sex before marriage" id="212" weight="0.07908831683489108">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="military, armaments, and defense" target="stranger in protest march" id="213" weight="0.055813440440343885">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="military, armaments, and defense" target="citizen said vulgar or obscene things" id="214" weight="0.05834029857659895">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor or oppose gun permits" target="halting rising crime rate" id="215" weight="0.0566164087952058">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor or oppose gun permits" target="vote on open housing law" id="216" weight="0.05579976751764058">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor or oppose gun permits" target="people helpful or looking out for selves" id="217" weight="0.06854437035890142">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor or oppose gun permits" target="materials provide outlet" id="218" weight="0.0568688474195502">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor or oppose gun permits" target="citizen attacking policeman with fists" id="219" weight="0.07707079165163985">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="wiretapping" target="favor law against racial intermarriage" id="220" weight="0.0667357752799238">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="wiretapping" target="responsible" id="221" weight="0.05257339593131171">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="wiretapping" target="married--wants no more children" id="222" weight="0.05540006965401794">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="wiretapping" target="birth control information to teens" id="223" weight="0.0540277056487434">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="wiretapping" target="citizen attempting to escape custody" id="224" weight="0.054087522064726445">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="dealing with drug addiction" id="225" weight="0.08587802989607199">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="improving the conditions of blacks" id="226" weight="0.052708973663837595">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="blacks shouldnt push" id="227" weight="0.06259563396867303">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="vote on open housing law" id="228" weight="0.09741718681020105">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="children to school half opposite race" id="229" weight="0.08705631030122178">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="children to school mostly opposite race" id="230" weight="0.06162227648958644">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="would vote for black president" id="231" weight="0.11767494439845198">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="confidence in scientific community" id="232" weight="0.05647998919185158">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="neat and clean" id="233" weight="0.05892205928076596">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="women take care of home not country" id="234" weight="0.15872417557495003">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="vote for woman president" id="235" weight="0.05955507055158693">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="low income--cant afford more children" id="236" weight="0.05732638645761135">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="birth control information to teens" id="237" weight="0.07371675057746317">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="sex before marriage" id="238" weight="0.07347383064947466">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="materials provide outlet" id="239" weight="0.0539121678083102">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="feelings about pornography laws" id="240" weight="0.06879774901676108">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor law against racial intermarriage" target="take active part in world affairs" id="241" weight="0.05254625919714443">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in scientific community" target="confidence in medicine" id="242" weight="0.112039887483989">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in scientific community" target="womans health seriously endangered" id="243" weight="0.059119753813738386">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in scientific community" target="pregnant as result of rape" id="244" weight="0.06936613731050718">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="good manners" id="245" weight="0.41413848799956626">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="tries hard to succeed" id="246" weight="0.4862912273301914">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="honest" id="247" weight="0.40762470415293767">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="good sense and sound judgment" id="248" weight="0.45260394624361555">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="self-control" id="249" weight="0.46565482886618825">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="acts like boy-acts like girl" id="250" weight="0.3891633813719358">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="gets along well with other children" id="251" weight="0.43523981836927567">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="obeys parents well" id="252" weight="0.46450733437828196">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="responsible" id="253" weight="0.4665679317857128">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="considerate of others" id="254" weight="0.4698799525299785">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="interested how and why things happen" id="255" weight="0.5044899846635298">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="good student" id="256" weight="0.4518808718633025">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="neat and clean" target="ever approve of police striking citizen" id="257" weight="0.06038460930048808">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="dealing with drug addiction" id="258" weight="0.05966594273311899">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="good manners" id="259" weight="0.552113915444267">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="tries hard to succeed" id="260" weight="0.47989303743075995">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="honest" id="261" weight="0.4809829985361237">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="good sense and sound judgment" id="262" weight="0.4709430515693243">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="self-control" id="263" weight="0.4705242934892822">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="acts like boy-acts like girl" id="264" weight="0.42998614957178816">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="gets along well with other children" id="265" weight="0.4570107792571923">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="obeys parents well" id="266" weight="0.5076682290432907">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="responsible" id="267" weight="0.4926717451792598">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="considerate of others" id="268" weight="0.49229123057289287">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="good student" id="269" weight="0.47191464889634">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="women take care of home not country" id="270" weight="0.05457465112619598">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="low income--cant afford more children" id="271" weight="0.07444413512306264">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="interested how and why things happen" target="pregnant as result of rape" id="272" weight="0.06138832390396645">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="womans health seriously endangered" target="strong chance of serious defect" id="273" weight="0.4072504850709652">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="womans health seriously endangered" target="pregnant as result of rape" id="274" weight="0.20381146062982658">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="womans health seriously endangered" target="materials provide outlet" id="275" weight="0.05610864831852872">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="womans health seriously endangered" target="feelings about pornography laws" id="276" weight="0.056344498375430145">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="womans health seriously endangered" target="stranger had hit mans child" id="277" weight="0.06607024017355835">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="take active part in world affairs" target="vote on open housing law" id="278" weight="0.05426679591758982">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="take active part in world affairs" target="can people be trusted" id="279" weight="0.10388506767249345">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="take active part in world affairs" target="self-control" id="280" weight="0.06197053562987357">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="take active part in world affairs" target="acts like boy-acts like girl" id="281" weight="0.08091013078734749">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="take active part in world affairs" target="women take care of home not country" id="282" weight="0.06757722771787608">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="take active part in world affairs" target="stranger in protest march" id="283" weight="0.057584155796229254">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="take active part in world affairs" target="remain in u.n. or pull out" id="284" weight="0.2572208024101409">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving &amp; protecting nations health" target="improving nations education system" id="285" weight="0.1385712118740042">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving &amp; protecting nations health" target="improving the conditions of blacks" id="286" weight="0.05872003691615213">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving &amp; protecting nations health" target="stranger in protest march" id="287" weight="0.0568805062100398">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving &amp; protecting nations health" target="should govt help pay for medical care?" id="288" weight="0.14032191700255756">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving nations education system" target="dealing with drug addiction" id="289" weight="0.0810765222478206">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving nations education system" target="improving the conditions of blacks" id="290" weight="0.15748436559349926">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving nations education system" target="welfare" id="291" weight="0.08621778540250627">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving nations education system" target="women take care of home not country" id="292" weight="0.06246382874455643">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving nations education system" target="materials lead to breakdown in morals" id="293" weight="0.08077810187677145">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving nations education system" target="materials lead to rape" id="294" weight="0.06686625021735756">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving nations education system" target="should govt help pay for medical care?" id="295" weight="0.06298979513828713">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="can people be trusted" target="would vote for black president" id="296" weight="0.05455792448230891">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="can people be trusted" target="people helpful or looking out for selves" id="297" weight="0.25006703648955747">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="can people be trusted" target="not married" id="298" weight="0.05576074455405262">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="can people be trusted" target="ever approve of man punching adult male" id="299" weight="0.054509150963360294">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="can people be trusted" target="stranger in protest march" id="300" weight="0.07058159820904918">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger had hit mans child" target="blacks shouldnt push" id="301" weight="0.07719647775663643">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger had hit mans child" target="feelings about pornography laws" id="302" weight="0.05538691264315617">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger had hit mans child" target="ever approve of man punching adult male" id="303" weight="0.06668222164335671">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger had hit mans child" target="stranger was beating up a woman" id="304" weight="0.18076863439272597">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="ever approve of police striking citizen" target="children to school mostly opposite race" id="305" weight="0.07331731255374263">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="ever approve of police striking citizen" target="materials provide outlet" id="306" weight="0.0647484573722332">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="ever approve of police striking citizen" target="ever approve of man punching adult male" id="307" weight="0.16970256594046207">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="ever approve of police striking citizen" target="citizen said vulgar or obscene things" id="308" weight="0.08307707659480673">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="ever approve of police striking citizen" target="citizen questioned as murder suspect" id="309" weight="0.24279715851571343">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="ever approve of police striking citizen" target="citizen attempting to escape custody" id="310" weight="0.17379635396900983">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="ever approve of police striking citizen" target="citizen attacking policeman with fists" id="311" weight="0.7238498758706359">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="remain in u.n. or pull out" target="dealing with drug addiction" id="312" weight="0.052497891753322826">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="remain in u.n. or pull out" target="obeys parents well" id="313" weight="0.055931944285192325">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving the conditions of blacks" target="dealing with drug addiction" id="314" weight="0.1402566694867042">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving the conditions of blacks" target="welfare" id="315" weight="0.1032598028983694">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving the conditions of blacks" target="blacks shouldnt push" id="316" weight="0.05752051197313952">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving the conditions of blacks" target="vote on open housing law" id="317" weight="0.06841691940148219">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving the conditions of blacks" target="children to school with opposite race" id="318" weight="0.18814778082901013">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving the conditions of blacks" target="children to school mostly opposite race" id="319" weight="0.0901066108535893">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving the conditions of blacks" target="would vote for black president" id="320" weight="0.07221371225349946">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving the conditions of blacks" target="women take care of home not country" id="321" weight="0.062190959789773265">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving the conditions of blacks" target="should women work" id="322" weight="0.06839654613140247">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving the conditions of blacks" target="materials lead to breakdown in morals" id="323" weight="0.05930313403827091">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving the conditions of blacks" target="citizen said vulgar or obscene things" id="324" weight="0.06913803949706458">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="improving the conditions of blacks" target="should govt aid blacks?" id="325" weight="0.25621141284259114">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger in protest march" target="ever approve of man punching adult male" id="326" weight="0.570201882553257">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger in protest march" target="drunk bumped into man &amp; wife" id="327" weight="0.1935359772745111">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger in protest march" target="citizen questioned as murder suspect" id="328" weight="0.12691511352287974">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt help pay for medical care?" target="welfare" id="329" weight="0.08319232402057145">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt help pay for medical care?" target="sex before marriage" id="330" weight="0.06020464787425714">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt help pay for medical care?" target="should govt aid blacks?" id="331" weight="0.07700480568911776">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="halting rising crime rate" target="dealing with drug addiction" id="332" weight="0.28703184133434057">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="halting rising crime rate" target="favor or oppose death penalty for murder" id="333" weight="0.08623091082552353">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="halting rising crime rate" target="pregnant as result of rape" id="334" weight="0.06555778707046146">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="halting rising crime rate" target="materials provide outlet" id="335" weight="0.059744414661328245">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="halting rising crime rate" target="feelings about pornography laws" id="336" weight="0.055085616201991205">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="dealing with drug addiction" target="materials provide outlet" id="337" weight="0.07709402721136241">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="dealing with drug addiction" target="stranger was beating up a woman" id="338" weight="0.0572368732759679">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor or oppose death penalty for murder" target="courts dealing with criminals" id="339" weight="0.18357979199785232">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor or oppose death penalty for murder" target="blacks shouldnt push" id="340" weight="0.08948722687883987">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor or oppose death penalty for murder" target="tries hard to succeed" id="341" weight="0.06804182170279306">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor or oppose death penalty for murder" target="materials lead to breakdown in morals" id="342" weight="0.06717049881283886">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor or oppose death penalty for murder" target="stranger had broken into mans house" id="343" weight="0.06632436431923985">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor or oppose death penalty for murder" target="citizen said vulgar or obscene things" id="344" weight="0.052958583315594596">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="favor or oppose death penalty for murder" target="citizen attempting to escape custody" id="345" weight="0.0658039966907468">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="pregnant as result of rape" target="bible prayer in public schools" id="346" weight="0.08528951292258227">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="pregnant as result of rape" target="would vote for black president" id="347" weight="0.05379001711967911">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="pregnant as result of rape" target="good manners" id="348" weight="0.05251639715687418">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="pregnant as result of rape" target="self-control" id="349" weight="0.06583468314830283">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="pregnant as result of rape" target="responsible" id="350" weight="0.06959660875315851">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="pregnant as result of rape" target="considerate of others" id="351" weight="0.06183070493700862">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="pregnant as result of rape" target="strong chance of serious defect" id="352" weight="0.2920395598588393">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="pregnant as result of rape" target="low income--cant afford more children" id="353" weight="0.1236337322263148">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="pregnant as result of rape" target="not married" id="354" weight="0.09338270264101825">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="pregnant as result of rape" target="materials provide info about sex" id="355" weight="0.06054322515711809">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="pregnant as result of rape" target="stranger had broken into mans house" id="356" weight="0.07425854603464911">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials provide outlet" target="not married" id="357" weight="0.055753453317367925">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials provide outlet" target="materials provide info about sex" id="358" weight="0.1349176673025117">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials provide outlet" target="materials lead to breakdown in morals" id="359" weight="0.0836557184925059">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials provide outlet" target="materials lead to rape" id="360" weight="0.16687304427195063">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials provide outlet" target="feelings about pornography laws" id="361" weight="0.08413687456264232">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials provide outlet" target="citizen attacking policeman with fists" id="362" weight="0.05410357595035558">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="feelings about pornography laws" target="married--wants no more children" id="363" weight="0.055038742587366976">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="feelings about pornography laws" target="sex before marriage" id="364" weight="0.09883229404849848">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="feelings about pornography laws" target="materials provide info about sex" id="365" weight="0.057258571437858216">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="feelings about pornography laws" target="materials lead to breakdown in morals" id="366" weight="0.13895240104282536">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="feelings about pornography laws" target="materials lead to rape" id="367" weight="0.15496378297171315">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger was beating up a woman" target="good manners" id="368" weight="0.05668602788235132">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger was beating up a woman" target="good sense and sound judgment" id="369" weight="0.0629977628806527">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger was beating up a woman" target="women not suited for politics" id="370" weight="0.05382161999220555">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger was beating up a woman" target="not married" id="371" weight="0.05366202119733123">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger was beating up a woman" target="sex before marriage" id="372" weight="0.06228095386954122">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger was beating up a woman" target="ever approve of man punching adult male" id="373" weight="0.17203028776378934">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger was beating up a woman" target="stranger had broken into mans house" id="374" weight="0.1903991301571896">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="welfare" target="self-control" id="375" weight="0.05645564839357474">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="welfare" target="birth control information to teens" id="376" weight="0.06395855180000695">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="welfare" target="materials lead to rape" id="377" weight="0.07426607868786902">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="women take care of home not country" target="gets along well with other children" id="378" weight="0.07142712015529538">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="women take care of home not country" target="considerate of others" id="379" weight="0.06476471306838298">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="women take care of home not country" target="should women work" id="380" weight="0.16274354901726268">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="women take care of home not country" target="vote for woman president" id="381" weight="0.21488027222235456">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="women take care of home not country" target="women not suited for politics" id="382" weight="0.4058407149241189">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials lead to breakdown in morals" target="vote on open housing law" id="383" weight="0.05301459024819311">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials lead to breakdown in morals" target="acts like boy-acts like girl" id="384" weight="0.059936188806566815">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials lead to breakdown in morals" target="sex before marriage" id="385" weight="0.12038793587133964">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials lead to breakdown in morals" target="materials provide info about sex" id="386" weight="0.053715525893613926">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials lead to breakdown in morals" target="materials lead to rape" id="387" weight="0.4785128090892932">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials lead to rape" target="courts dealing with criminals" id="388" weight="0.05275199582378785">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials lead to rape" target="would vote for black president" id="389" weight="0.05680365939283391">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="materials lead to rape" target="stranger had broken into mans house" id="390" weight="0.05401781547999791">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="blacks shouldnt push" target="vote on open housing law" id="391" weight="0.10202737224845519">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="blacks shouldnt push" target="would vote for black president" id="392" weight="0.07827662055411623">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="blacks shouldnt push" target="women not suited for politics" id="393" weight="0.06663671825631488">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="blacks shouldnt push" target="married--wants no more children" id="394" weight="0.054416075247961">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="blacks shouldnt push" target="materials provide info about sex" id="395" weight="0.06560363494923496">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="blacks shouldnt push" target="should govt aid blacks?" id="396" weight="0.12411132680667208">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="vote on open housing law" target="children to school with opposite race" id="397" weight="0.1934588981471053">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="vote on open housing law" target="attitude toward racial busing" id="398" weight="0.10914064575673404">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="vote on open housing law" target="would vote for black president" id="399" weight="0.11800182189319747">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="vote on open housing law" target="confidence in education" id="400" weight="0.05349251324320927">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="vote on open housing law" target="good manners" id="401" weight="0.05336225388770091">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="vote on open housing law" target="honest" id="402" weight="0.055001087159669934">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="vote on open housing law" target="acts like boy-acts like girl" id="403" weight="0.05553049177040005">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="vote on open housing law" target="should govt aid blacks?" id="404" weight="0.08953082714959058">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school with opposite race" target="bible prayer in public schools" id="405" weight="0.05426047253302173">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school with opposite race" target="children to school half opposite race" id="406" weight="0.4911371368770392">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school with opposite race" target="children to school mostly opposite race" id="407" weight="0.1602711853219302">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school with opposite race" target="attitude toward racial busing" id="408" weight="0.05741731110471921">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school with opposite race" target="would vote for black president" id="409" weight="0.08572848530754595">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school with opposite race" target="people helpful or looking out for selves" id="410" weight="0.05324039314081382">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school with opposite race" target="vote for woman president" id="411" weight="0.0707007023216723">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school with opposite race" target="women not suited for politics" id="412" weight="0.05332422662777589">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school with opposite race" target="strong chance of serious defect" id="413" weight="0.06255804207379222">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school with opposite race" target="should govt aid blacks?" id="414" weight="0.059156425278833066">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school mostly opposite race" target="children to school half opposite race" id="415" weight="0.31680334691420614">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school mostly opposite race" target="would vote for black president" id="416" weight="0.16368964357359375">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school mostly opposite race" target="married--wants no more children" id="417" weight="0.06476333808364747">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school mostly opposite race" target="drunk bumped into man &amp; wife" id="418" weight="0.07182417876056357">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school mostly opposite race" target="citizen said vulgar or obscene things" id="419" weight="0.07845991644783067">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="would vote for black president" target="children to school half opposite race" id="420" weight="0.10908403857354539">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="would vote for black president" target="confidence in education" id="421" weight="0.056844684105903424">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="would vote for black president" target="responsible" id="422" weight="0.06147844930840615">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="would vote for black president" target="vote for woman president" id="423" weight="0.19915319882391055">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should women work" target="vote for woman president" id="424" weight="0.07915818920151248">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should women work" target="citizen said vulgar or obscene things" id="425" weight="0.06164692793394693">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should women work" target="citizen attacking policeman with fists" id="426" weight="0.06167842473531287">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen said vulgar or obscene things" target="bible prayer in public schools" id="427" weight="0.05691167466845159">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen said vulgar or obscene things" target="people helpful or looking out for selves" id="428" weight="0.07886132032689724">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen said vulgar or obscene things" target="self-control" id="429" weight="0.0784012129809186">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen said vulgar or obscene things" target="acts like boy-acts like girl" id="430" weight="0.05288333540723388">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen said vulgar or obscene things" target="birth control information to teens" id="431" weight="0.0663567920022398">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen said vulgar or obscene things" target="drunk bumped into man &amp; wife" id="432" weight="0.11039085893520942">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen said vulgar or obscene things" target="stranger had broken into mans house" id="433" weight="0.054360567973090856">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen said vulgar or obscene things" target="citizen questioned as murder suspect" id="434" weight="0.2722077705913699">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt aid blacks?" target="courts dealing with criminals" id="435" weight="0.07425413452989989">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt aid blacks?" target="attitude toward racial busing" id="436" weight="0.1139331223828573">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt aid blacks?" target="gets along well with other children" id="437" weight="0.0548783635704018">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="should govt aid blacks?" target="low income--cant afford more children" id="438" weight="0.0603397858921602">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex before marriage" target="honest" id="439" weight="0.06730187060613625">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex before marriage" target="strong chance of serious defect" id="440" weight="0.06547367904943749">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex before marriage" target="birth control information to teens" id="441" weight="0.06815761949285194">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="sex before marriage" target="divorce laws" id="442" weight="0.07016839237773113">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="courts dealing with criminals" id="443" weight="0.05272555683046892">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="confidence in medicine" id="444" weight="0.0671840203362775">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="good manners" id="445" weight="0.5463451269225198">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="tries hard to succeed" id="446" weight="0.4566044377663668">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="honest" id="447" weight="0.5074401568301455">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="self-control" id="448" weight="0.48124164249726686">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="acts like boy-acts like girl" id="449" weight="0.45437459178466943">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="gets along well with other children" id="450" weight="0.4795199323475078">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="obeys parents well" id="451" weight="0.5173371545853017">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="responsible" id="452" weight="0.44744806469157206">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="considerate of others" id="453" weight="0.48550142656411766">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="good student" id="454" weight="0.483520942403892">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good sense and sound judgment" target="drunk bumped into man &amp; wife" id="455" weight="0.05476707669272859">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger had broken into mans house" target="people helpful or looking out for selves" id="456" weight="0.07330392621743573">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger had broken into mans house" target="acts like boy-acts like girl" id="457" weight="0.0551287827028007">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="stranger had broken into mans house" target="ever approve of man punching adult male" id="458" weight="0.2699833067597284">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="self-control" target="good manners" id="459" weight="0.48799965450142957">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="self-control" target="tries hard to succeed" id="460" weight="0.45386834984353136">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="self-control" target="honest" id="461" weight="0.421299480827292">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="self-control" target="acts like boy-acts like girl" id="462" weight="0.4285432083814857">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="self-control" target="gets along well with other children" id="463" weight="0.433896138981371">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="self-control" target="obeys parents well" id="464" weight="0.4897305289944337">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="self-control" target="responsible" id="465" weight="0.42572886890170475">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="self-control" target="considerate of others" id="466" weight="0.4923338263886147">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="self-control" target="good student" id="467" weight="0.4534831245909613">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="self-control" target="citizen attempting to escape custody" id="468" weight="0.06144070020783741">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="courts dealing with criminals" target="attitude toward racial busing" id="469" weight="0.064740927333337">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="courts dealing with criminals" target="honest" id="470" weight="0.06438435627666785">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="courts dealing with criminals" target="acts like boy-acts like girl" id="471" weight="0.05483956594695774">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="tries hard to succeed" target="good manners" id="472" weight="0.5166869109961371">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="tries hard to succeed" target="honest" id="473" weight="0.47548026472986943">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="tries hard to succeed" target="acts like boy-acts like girl" id="474" weight="0.4250966752707949">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="tries hard to succeed" target="gets along well with other children" id="475" weight="0.4830944596283561">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="tries hard to succeed" target="obeys parents well" id="476" weight="0.4840644590626111">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="tries hard to succeed" target="responsible" id="477" weight="0.4703668707050145">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="tries hard to succeed" target="considerate of others" id="478" weight="0.49089221754382883">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="tries hard to succeed" target="good student" id="479" weight="0.41950929142208815">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="tries hard to succeed" target="drunk bumped into man &amp; wife" id="480" weight="0.06137472502891356">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen attempting to escape custody" target="not married" id="481" weight="0.06075655175810135">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen attempting to escape custody" target="drunk bumped into man &amp; wife" id="482" weight="0.055369355547092644">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen attempting to escape custody" target="citizen attacking policeman with fists" id="483" weight="0.12301794235716648">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="people helpful or looking out for selves" target="women not suited for politics" id="484" weight="0.05245850014572039">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen attacking policeman with fists" target="citizen questioned as murder suspect" id="485" weight="0.08243299079846986">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="attitude toward racial busing" target="women not suited for politics" id="486" weight="0.05864290350065688">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="honest" target="children to school half opposite race" id="487" weight="0.055746141306972086">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="honest" target="good manners" id="488" weight="0.4609325687533186">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="honest" target="acts like boy-acts like girl" id="489" weight="0.4638084030667541">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="honest" target="gets along well with other children" id="490" weight="0.4786658495097004">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="honest" target="obeys parents well" id="491" weight="0.4406893153761787">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="honest" target="responsible" id="492" weight="0.43964734941277195">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="honest" target="considerate of others" id="493" weight="0.4344228736194447">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="honest" target="good student" id="494" weight="0.4217605095759035">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="acts like boy-acts like girl" target="good manners" id="495" weight="0.41774237890599886">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="acts like boy-acts like girl" target="gets along well with other children" id="496" weight="0.3990103285389169">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="acts like boy-acts like girl" target="obeys parents well" id="497" weight="0.38300607120460356">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="acts like boy-acts like girl" target="responsible" id="498" weight="0.423375691404392">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="acts like boy-acts like girl" target="considerate of others" id="499" weight="0.4249322383014693">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="acts like boy-acts like girl" target="good student" id="500" weight="0.40102469200455876">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="acts like boy-acts like girl" target="vote for woman president" id="501" weight="0.06872942581470141">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="acts like boy-acts like girl" target="divorce laws" id="502" weight="0.055917894330270446">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="acts like boy-acts like girl" target="drunk bumped into man &amp; wife" id="503" weight="0.05667875368414146">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="responsible" target="good manners" id="504" weight="0.5574414025936193">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="responsible" target="gets along well with other children" id="505" weight="0.498578409013015">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="responsible" target="obeys parents well" id="506" weight="0.5356150032875381">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="responsible" target="considerate of others" id="507" weight="0.4716394774012593">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="responsible" target="good student" id="508" weight="0.45558992646867064">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="married--wants no more children" target="children to school half opposite race" id="509" weight="0.05343501262367369">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="married--wants no more children" target="low income--cant afford more children" id="510" weight="0.43250848591471025">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="married--wants no more children" target="not married" id="511" weight="0.39612380647181644">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="bible prayer in public schools" target="good manners" id="512" weight="0.10740477336957972">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="bible prayer in public schools" target="obeys parents well" id="513" weight="0.07049892624490837">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="bible prayer in public schools" target="strong chance of serious defect" id="514" weight="0.07080634811518234">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in medicine" target="children to school half opposite race" id="515" weight="0.076145888155051">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in medicine" target="confidence in education" id="516" weight="0.19717278522015383">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="divorce laws" target="women not suited for politics" id="517" weight="0.0653441779269569">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good manners" target="children to school half opposite race" id="518" weight="0.05331149699140017">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good manners" target="gets along well with other children" id="519" weight="0.4960978451006516">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good manners" target="obeys parents well" id="520" weight="0.5091856571105389">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good manners" target="considerate of others" id="521" weight="0.5170075780726123">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good manners" target="good student" id="522" weight="0.4421205798889959">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good manners" target="low income--cant afford more children" id="523" weight="0.05739105588601069">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good manners" target="drunk bumped into man &amp; wife" id="524" weight="0.0768965835334457">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="obeys parents well" target="gets along well with other children" id="525" weight="0.4053818572046111">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="obeys parents well" target="considerate of others" id="526" weight="0.4795471883984462">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="obeys parents well" target="good student" id="527" weight="0.3962530779937121">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="obeys parents well" target="not married" id="528" weight="0.07141932961721029">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="obeys parents well" target="drunk bumped into man &amp; wife" id="529" weight="0.052555673939664864">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="strong chance of serious defect" target="low income--cant afford more children" id="530" weight="0.060191061846789795">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school half opposite race" target="low income--cant afford more children" id="531" weight="0.05826386022956464">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="children to school half opposite race" target="citizen questioned as murder suspect" id="532" weight="0.05999348634718144">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="vote for woman president" target="women not suited for politics" id="533" weight="0.16777408364086857">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="low income--cant afford more children" target="not married" id="534" weight="0.32214697580564416">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="low income--cant afford more children" target="ever approve of man punching adult male" id="535" weight="0.06094072315664044">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="women not suited for politics" target="confidence in education" id="536" weight="0.05493246748642959">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="confidence in education" target="not married" id="537" weight="0.06216600914388415">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="citizen questioned as murder suspect" target="ever approve of man punching adult male" id="538" weight="0.08762885182811148">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="drunk bumped into man &amp; wife" target="gets along well with other children" id="539" weight="0.05485395188167156">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="drunk bumped into man &amp; wife" target="good student" id="540" weight="0.06634356882783404">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="drunk bumped into man &amp; wife" target="ever approve of man punching adult male" id="541" weight="0.3005655340643222">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="gets along well with other children" target="considerate of others" id="542" weight="0.42492737049234586">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="gets along well with other children" target="good student" id="543" weight="0.4470255515675779">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+      <edge source="good student" target="considerate of others" id="544" weight="0.4576778257633393">
+        <attvalues>
+          <attvalue for="0" value="-1.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
